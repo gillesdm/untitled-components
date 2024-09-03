@@ -1,0 +1,25 @@
+{
+  "name": "untitled-components",
+  "version": "0.0.1",
+  "description": "A UI library based on the UntitledUI Figma design system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "UI",
+    "Library",
+    "UntitledUI",
+    "Figma",
+    "Components"
+  ],
+  "author": "Gilles De Muynck",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.4"
+  }
+}
