@@ -1,17 +1,19 @@
 {
   "name": "untitled-components",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A UI library based on the UntitledUI Figma design system.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
-    "UI",
-    "Library",
+    "UI Library",
     "UntitledUI",
     "Figma",
-    "Components"
+    "Components",
+    "react"
   ],
   "author": "Gilles De Muynck",
   "license": "MIT",
